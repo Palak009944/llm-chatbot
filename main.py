@@ -26,7 +26,8 @@ while True:
                 contents=user_prompt)
             print("AI:",response.text)
         except Exception as e:
-            print("Error: ",e)
+            print("Error! can't proceed: ",e)
+        
 
 
 
